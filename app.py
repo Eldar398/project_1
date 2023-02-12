@@ -16,6 +16,10 @@ def skill():
 def blog():
     return render_template('blog.html')
 
+@app.route('/about')
+def about_me():
+    return render_template('about.html')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
