@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% if method == 'GET' %}
+<form action="/login" method="post">
+  <label for="username">username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="password">password:</label><br>
+  <input type="password" id="password" name="password">
+
+    <input type="submit" value="Submit">
+</form>
+{% endif %}
+{% if method == 'POST' %}
+    <div><h1>Welcome to my site {{ username }} </h1></div>
+{% endif %}
+{% endblock %}

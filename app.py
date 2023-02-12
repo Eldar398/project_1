@@ -36,6 +36,15 @@ def signup():
     else:
         return render_template('signup.html', method='GET')
 
+@app.route('/login', methods=('GET', 'POST'))
+def login():
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']
+        return render_template('login.html', method='POST', username=username, password=password)
+    else:
+        return render_template('login.html', method='GET')
+
 
 
 
