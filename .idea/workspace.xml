@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cf7c3f8-b3bc-4ffd-b34c-9d3b73ba0ce4" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vers3logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/skills.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +45,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -102,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676145738756</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1676146311166</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676146311166</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,36 +133,37 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="348" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1676141848408">
+    <state x="348" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1676146190596">
       <screen x="0" y="25" width="1920" height="1003" />
     </state>
-    <state x="348" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.1003@0.25.1920.1003" timestamp="1676141848408" />
-    <state width="1747" height="260" key="GridCell.Tab.0.bottom" timestamp="1676145531812">
+    <state x="348" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.1003@0.25.1920.1003" timestamp="1676146190596" />
+    <state width="1827" height="266" key="GridCell.Tab.0.bottom" timestamp="1676226041872">
       <screen x="0" y="25" width="1920" height="1003" />
     </state>
-    <state width="1747" height="260" key="GridCell.Tab.0.bottom/0.25.1920.1003@0.25.1920.1003" timestamp="1676145531812" />
-    <state width="1747" height="260" key="GridCell.Tab.0.center" timestamp="1676145531811">
+    <state width="1827" height="266" key="GridCell.Tab.0.bottom/0.25.1920.1003@0.25.1920.1003" timestamp="1676226041872" />
+    <state width="1827" height="266" key="GridCell.Tab.0.center" timestamp="1676226041871">
       <screen x="0" y="25" width="1920" height="1003" />
     </state>
-    <state width="1747" height="260" key="GridCell.Tab.0.center/0.25.1920.1003@0.25.1920.1003" timestamp="1676145531811" />
-    <state width="1747" height="260" key="GridCell.Tab.0.left" timestamp="1676145531810">
+    <state width="1827" height="266" key="GridCell.Tab.0.center/0.25.1920.1003@0.25.1920.1003" timestamp="1676226041871" />
+    <state width="1827" height="266" key="GridCell.Tab.0.left" timestamp="1676226041870">
       <screen x="0" y="25" width="1920" height="1003" />
     </state>
-    <state width="1747" height="260" key="GridCell.Tab.0.left/0.25.1920.1003@0.25.1920.1003" timestamp="1676145531810" />
-    <state width="1747" height="260" key="GridCell.Tab.0.right" timestamp="1676145531811">
+    <state width="1827" height="266" key="GridCell.Tab.0.left/0.25.1920.1003@0.25.1920.1003" timestamp="1676226041870" />
+    <state width="1827" height="266" key="GridCell.Tab.0.right" timestamp="1676226041871">
       <screen x="0" y="25" width="1920" height="1003" />
     </state>
-    <state width="1747" height="260" key="GridCell.Tab.0.right/0.25.1920.1003@0.25.1920.1003" timestamp="1676145531811" />
-    <state x="484" y="247" key="Vcs.Push.Dialog.v2" timestamp="1676145757966">
+    <state width="1827" height="266" key="GridCell.Tab.0.right/0.25.1920.1003@0.25.1920.1003" timestamp="1676226041871" />
+    <state x="484" y="247" key="Vcs.Push.Dialog.v2" timestamp="1676146317168">
       <screen x="0" y="25" width="1920" height="1003" />
     </state>
-    <state x="484" y="247" key="Vcs.Push.Dialog.v2/0.25.1920.1003@0.25.1920.1003" timestamp="1676145757966" />
+    <state x="484" y="247" key="Vcs.Push.Dialog.v2/0.25.1920.1003@0.25.1920.1003" timestamp="1676146317168" />
     <state x="690" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1676145655080">
       <screen x="0" y="25" width="1920" height="1003" />
     </state>

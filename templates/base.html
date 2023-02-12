@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="width: 900px; margin: 0 auto;">
+<div style="display: flex;
+            margin: 0 auto;
+            width: 900px;
+            justify-content: space-around;
+            background: lightgrey;
+            height: 4rem;
+            align-items: center;">
+    <a href="/"><div>HOME</div></a>
+    <a href="/skill"><div>My Skills</div></a>
+    <a href="/blog"><div>Blog</div></a>
+</div>
+    {% block content %} {% endblock %}
+</body>
+</html>
