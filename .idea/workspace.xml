@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bedf6a3c-676b-4698-8048-9e2f07ee317f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="5cf7c3f8-b3bc-4ffd-b34c-9d3b73ba0ce4" name="Default Changelist" comment="pages">
+      <change afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/signup_result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
@@ -19,41 +35,56 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2LbkFBI2ifBt8yp8ZjxstazpKa2" />
+  <component name="ProjectId" id="2LbYWnqv158ppsxP8TNXcHMko2P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/super/project_1/venv",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="project_1" type="PythonConfigurationType" factoryName="Python">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="project_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="project_1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -67,44 +98,85 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bedf6a3c-676b-4698-8048-9e2f07ee317f" name="Changes" comment="" />
-      <created>1676147063350</created>
+      <changelist id="5cf7c3f8-b3bc-4ffd-b34c-9d3b73ba0ce4" name="Default Changelist" comment="" />
+      <created>1676141283885</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1676147063350</updated>
-      <workItem from="1676147064473" duration="322000" />
-      <workItem from="1676147394978" duration="66000" />
-      <workItem from="1676226948823" duration="393000" />
+      <updated>1676141283885</updated>
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1676145738756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676145738756</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1676146311166</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676146311166</updated>
+    </task>
+    <task id="LOCAL-00003" summary="pages">
+      <created>1676226891884</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676226891884</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/project_1$project_1.coverage" NAME="project_1 Coverage Results" MODIFIED="1676227114220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="pages" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="348" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1676146190596">
+      <screen x="0" y="25" width="1920" height="1003" />
+    </state>
+    <state x="348" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.1003@0.25.1920.1003" timestamp="1676146190596" />
+    <state width="1827" height="266" key="GridCell.Tab.0.bottom" timestamp="1676228813184">
+      <screen x="0" y="25" width="1920" height="1003" />
+    </state>
+    <state width="1827" height="266" key="GridCell.Tab.0.bottom/0.25.1920.1003@0.25.1920.1003" timestamp="1676228813184" />
+    <state width="1827" height="266" key="GridCell.Tab.0.center" timestamp="1676228813183">
+      <screen x="0" y="25" width="1920" height="1003" />
+    </state>
+    <state width="1827" height="266" key="GridCell.Tab.0.center/0.25.1920.1003@0.25.1920.1003" timestamp="1676228813183" />
+    <state width="1827" height="266" key="GridCell.Tab.0.left" timestamp="1676228813183">
+      <screen x="0" y="25" width="1920" height="1003" />
+    </state>
+    <state width="1827" height="266" key="GridCell.Tab.0.left/0.25.1920.1003@0.25.1920.1003" timestamp="1676228813183" />
+    <state width="1827" height="266" key="GridCell.Tab.0.right" timestamp="1676228813183">
+      <screen x="0" y="25" width="1920" height="1003" />
+    </state>
+    <state width="1827" height="266" key="GridCell.Tab.0.right/0.25.1920.1003@0.25.1920.1003" timestamp="1676228813183" />
+    <state x="210" y="105" key="MergeDialog" timestamp="1676227558369">
+      <screen x="0" y="25" width="1920" height="1003" />
+    </state>
+    <state x="210" y="105" key="MergeDialog/0.25.1920.1003@0.25.1920.1003" timestamp="1676227558369" />
+    <state x="484" y="247" key="Vcs.Push.Dialog.v2" timestamp="1676226898556">
+      <screen x="0" y="25" width="1920" height="1003" />
+    </state>
+    <state x="484" y="247" key="Vcs.Push.Dialog.v2/0.25.1920.1003@0.25.1920.1003" timestamp="1676226898556" />
+    <state x="690" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1676227545452">
+      <screen x="0" y="25" width="1920" height="1003" />
+    </state>
+    <state x="690" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1920.1003@0.25.1920.1003" timestamp="1676227545452" />
   </component>
 </project>

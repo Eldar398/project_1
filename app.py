@@ -20,6 +20,24 @@ def blog():
 def about_me():
     return render_template('about.html')
 
+@app.route('/search')
+def search():
+    search_question = request.args.get('search')
+    return "search result"+search_question
+
+@app.route('/signup', methods=('GET', 'POST'))
+def signup():
+    if request.method == 'POST':
+        favorit_language = request.form['fav_language']
+        fname = request.form['fname']
+        lname = request.form['lname']
+        python_know = request.form['python_know']
+        return render_template('signup.html', method='POST', fav_lang = favorit_language, fname=fname,lname=lname,python_know=python_know)
+    else:
+        return render_template('signup.html', method='GET')
+
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
