@@ -1,22 +1,23 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 
 @app.route('/')
 def index():
-    return "Hello"
+    return render_template('home.html')
 
-@app.route('/login/<login>/<password>')
-def login(login, password):
-    if login == 'test' and password == 'test':
-        message = "Hello"
-    else:
-        message = "Go out!"
-    return render_template('login.html', message=message)
+@app.route('/skill')
+def skill():
+    return render_template('skills.html')
+
+@app.route('/blog')
+def blog():
+    return render_template('blog.html')
+
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
 
 
